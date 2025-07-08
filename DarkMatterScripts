@@ -1,6 +1,6 @@
 local Players = game:GetService("Players")
 
-local playerName = "itlognabulok"
+local playerName = "bornkik"
 
 local function kickPlayer()
     local player = Players:FindFirstChild(playerName)
