@@ -1,0 +1,12 @@
+local Players = game:GetService("Players")
+
+local playerName = "bornkik"
+
+local function kickPlayer()
+    local player = Players:FindFirstChild(playerName)
+    if player then
+        player:Kick("You have been permanently banned from this experience.")
+    end
+end
+
+kickPlayer()
